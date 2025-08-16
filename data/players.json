@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "name": "עומר ניראון",
+    "position": "Goalkeeper",
+    "shirt": 22,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-465348.png"
+  },
+  {
+    "id": "2",
+    "name": "תומר צרפתי",
+    "position": "Goalkeeper",
+    "shirt": 18,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-579833.png"
+  },
+  {
+    "id": "3",
+    "name": "עדי טבצ'ניק",
+    "position": "Goalkeeper",
+    "shirt": 75,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-363519.png"
+  },
+  {
+    "id": "4",
+    "name": "כארם ג'אבר",
+    "position": "Defender",
+    "shirt": 26,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-497682.png"
+  },
+  {
+    "id": "5",
+    "name": "דניס קוליקוב ",
+    "position": "Defender",
+    "shirt": 40,
+    "image": "https://www.football.org.il/ImageServer/GetImage.ashx?type=2&id=613524&width=200&height=190"
+  },
+  {
+    "id": "6",
+    "name": "רותם קלר",
+    "position": "Defender",
+    "shirt": 72,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-505599.png"
+  },
+  {
+    "id": "7",
+    "name": "איתי בן שבת",
+    "position": "Defender",
+    "shirt": 4,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-517017.png"
+  },
+  {
+    "id": "8",
+    "name": "מוחמד דג'טי",
+    "position": "Defender",
+    "shirt": 21,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-341355.png"
+  },
+  {
+    "id": "9",
+    "name": "עמית כהן",
+    "position": "Defender",
+    "shirt": 28,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-430404.png"
+  },
+  {
+    "id": "10",
+    "name": "סאבא קוואגאגיאני",
+    "position": "Defender",
+    "shirt": 44,
+    "image": "https://www.football.org.il/ImageServer/GetImage.ashx?type=2&id=561372&width=200&height=190"
+  },
+  {
+    "id": "11",
+    "name": "יובל שדה",
+    "position": "MidField",
+    "shirt": 8,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-481836.png"
+  },
+  {
+    "id": "12",
+    "name": "מקסים פלקושצ'נקו",
+    "position": "MidField",
+    "shirt": 7,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-340806.png"
+  },
+  {
+    "id": "13",
+    "name": "מאור לוי",
+    "position": "MidField",
+    "shirt": 15,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-500184.png"
+  },
+  {
+    "id": "14",
+    "name": "עמרי שמיר",
+    "position": "MidField",
+    "shirt": "",
+    "image": ""
+  },
+  {
+    "id": "15",
+    "name": "עוז בילו",
+    "position": "MidField",
+    "shirt": 10,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-505578.png"
+  },
+  {
+    "id": "16",
+    "name": "סאהר תאג'י",
+    "position": "MidField",
+    "shirt": 19,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-506295.png"
+  },
+  {
+    "id": "17",
+    "name": "לואי חלף",
+    "position": "MidField",
+    "shirt": 17,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-553640.png"
+  },
+  {
+    "id": "18",
+    "name": "ג'אניו ביקל",
+    "position": "MidField",
+    "shirt": 20,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-241122.png"
+  },
+  {
+    "id": "19",
+    "name": "הריברטו טבארס",
+    "position": "Forward",
+    "shirt": 91,
+    "image": "https://static.football.co.il/wp-content/themes/kingclub-theme/images/players/421-4545-398877.png"
+  },
+  {
+    "id": "20",
+    "name": "לוקאס פאראייזו",
+    "position": "Forward",
+    "shirt": "",
+    "image": ""
+  },
+  {
+    "id": "21",
+    "name": "ווילסון האריס",
+    "position": "Forward",
+    "shirt": "",
+    "image": ""
+  }
+]
