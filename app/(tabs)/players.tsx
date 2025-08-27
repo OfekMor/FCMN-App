@@ -5,13 +5,14 @@ import {
   StyleSheet,
   ActivityIndicator,
   TouchableOpacity,
+  ScrollView,
 } from "react-native";
 import PlayerCarousel from "../../components/PlayerCarousel";
 import { getMaccabiNetanyaPlayers } from "../../services/api";
-import { ScrollView } from "react-native";
+import { Player } from "../types/Player";
 
-export default function PlayerScreen() {
-  const [players, setPlayers] = useState([]);
+export default function Players() {
+  const [players, setPlayers] = useState<Player[]>([]);
   const [loading, setLoading] = useState(true);
 
   const positions = [
@@ -20,15 +21,14 @@ export default function PlayerScreen() {
     { key: "MidField", label: "קישור" },
     { key: "Forward", label: "התקפה" },
   ];
-
   const loadPlayers = async () => {
     setLoading(true);
     try {
-      const data = await getMaccabiNetanyaPlayers();
+      const data = await getMaccabiNetanyaPlayers(); // עכשיו זה fetch מ־Firebase
       setPlayers(data);
     } catch (e) {
       console.warn("Failed loading players:", e);
-      setPlayers([]); // או placeholder
+      setPlayers([]);
     } finally {
       setLoading(false);
     }
@@ -55,7 +55,7 @@ export default function PlayerScreen() {
   return (
     <ScrollView>
       <View style={styles.container}>
-        <Text style={styles.title}> סגל שחקנים</Text>
+        <Text style={styles.title}>סגל שחקנים</Text>
         <View style={styles.header}>
           <TouchableOpacity onPress={loadPlayers} style={styles.refreshBtn}>
             <Text style={styles.refreshText}>רענון</Text>
@@ -66,7 +66,7 @@ export default function PlayerScreen() {
           const filtered = players.filter((p) => p.position === pos.key);
           if (!filtered.length) return null;
           return (
-            <View>
+            <View key={pos.key} style={{ marginBottom: 30 }}>
               <Text style={styles.sectionTitle}>{pos.label}</Text>
               <PlayerCarousel players={filtered} />
             </View>
@@ -78,7 +78,7 @@ export default function PlayerScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#000000ff", paddingTop: 12 },
+  container: { flex: 1, backgroundColor: "#130f01ff", paddingTop: 12 },
   header: {
     flexDirection: "row",
     alignItems: "center",
@@ -100,15 +100,11 @@ const styles = StyleSheet.create({
     borderRadius: 10,
   },
   refreshText: { fontWeight: "700" },
-
   sectionTitle: {
     color: "#fcde11",
-    fontFamily: "RubikDoodleShadow",
-    fontSize: 40,
-    fontWeight: 700,
-    marginLeft: 16,
-    marginTop: 20,
-    marginBottom: 20,
+    fontSize: 30,
+    fontWeight: "700",
     textAlign: "center",
+    marginBottom: 10,
   },
 });
